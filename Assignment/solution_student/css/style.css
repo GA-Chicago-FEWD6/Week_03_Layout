@@ -1,8 +1,8 @@
 /*
-Project Name: HTML Template
-Client: Your Client
-Author: Your Name
-Developer: @poopsplat in Chicago
+Project Name: Arts Relaxr blog page
+Client: 
+Author: 
+Developer: Art Rykalin
 */
 
 /******************************************
@@ -30,16 +30,20 @@ html {
 /******************************************
 /* BASE STYLES
 /*******************************************/
-body {
+/*body {
   color: black;
   font-size: 16px;
   background: white;
-}
+}*/
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+/*.inner-container {
+  margin: 0 auto;
+  padding: 0 116px;
+  max-width: 1200px;*/
+}
 /******************************************
 /* PAGES
 /*******************************************/
@@ -47,3 +51,112 @@ body {
 /******************************************
 /* SECTIONS
 /*******************************************/
+
+/* Site Header */
+header {
+  background-color: #262672;
+  height: 200px;
+  padding: 40px 0;
+  text-align: center;
+
+
+  /*background-image: url('../images/header_bg.jpg');*/
+  /*background-size: cover;*/
+}
+header .logo {
+  color: #f0efef;
+  text-align: left;
+  display: inline;
+  /*padding: 0px 500px 0px 0px;*/
+}
+
+header ul li{
+	 /*color: #f0efef;*/
+  /*text-align: right;*/
+  display: inline;
+  /*display: inline;*/
+  /*padding: 0px 500px 0px 0px;*/
+}
+.navLinks {
+	color: #f9e42e;
+}
+
+
+/*header h2 {
+  color: #f0efef;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+*/
+/* Implement Section */
+/*.implement {
+  padding: 116px 0;
+}*/
+/*.implement h2 {
+  margin-top: 0;
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+}*/
+/*.implement p {
+  max-width: 350px;
+}*/
+
+/* Travel Section */
+/*.travel {
+  color: #f0efef;
+  padding: 60px 0;
+  text-align: center;
+}*/
+/*.travel blockquote {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 400px;
+}*/
+/*.travel blockquote p {
+  font-size: 18px;
+  font-style: italic;
+}*/
+/*.travel blockquote footer {
+  font-weight: 600;
+}*/
+
+/* Signup Section */
+.signup {
+  padding: 20px 0;
+  text-align: center;
+  background: #f9e42e;
+}
+.signup .button {
+  color: #f0efef;
+  background: #033048;
+}
+.signup .button:hover {
+  background: #5F748F;
+}
+
+/* Site Footer */
+.site-footer {
+  color: #f0efef;
+  padding: 40px 0;
+  text-align: center;
+  background: #2E2E2E;
+}
+.site-footer .logo {
+  color: #f9e42e;
+}
+.social-links {
+  padding: 0;
+  margin: 40px 0;
+}
+.social-links li {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+}
