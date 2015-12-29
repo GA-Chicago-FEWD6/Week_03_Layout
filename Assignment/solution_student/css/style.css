@@ -1,8 +1,8 @@
 /*
-Project Name: HTML Template
-Client: Your Client
-Author: Your Name
-Developer: @poopsplat in Chicago
+Project Name: Assingment #3 Relaxr blog
+Client: Relaxr
+Author: Andrea Watts
+Developer: @pwattsand in Chicago
 */
 
 /******************************************
@@ -28,22 +28,212 @@ html {
   clear: both;
 }
 /******************************************
-/* BASE STYLES
-/*******************************************/
+ BASE STYLES
+*******************************************/
+
 body {
-  color: black;
-  font-size: 16px;
-  background: white;
+ width: 50%;
+ color: black;
+ opacity: .85;
+ margin: 0 auto;
+ font-size: 16px;
+ font-family: 'open sans', sans-serif;
+
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+header {
+    width: 100%;
+    background-color: #033048;
+    padding-bottom: 25px;
+}
 
-/******************************************
-/* PAGES
-/*******************************************/
 
-/******************************************
-/* SECTIONS
-/*******************************************/
+h1 {
+    display: inline-block;
+    margin: 0;
+    color: #f0efef ;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+
+h1, 
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+	margin: 0;
+	color: #033048;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    margin: 0;
+    color: #f9e42e ;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+h3{
+	font-size: 14px;
+}
+
+h5 {
+    color: #f0efef ;
+    font-size: 9px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+nav {
+    float: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    
+}
+
+li {
+    display: inline;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+
+p{
+	color: #606161;
+	font-size: 12px;
+}
+
+main {
+	margin-bottom: 0;
+	padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    background-color: #f0efef ;
+    float: left;
+    width: 75%;
+}
+
+a {
+    color: #f9e42e ;
+    text-decoration: none;
+}
+
+footer {
+    height: 240px;
+    margin: 0;
+    background-color: #121212 ;
+    clear: both;
+}
+
+.main-content {
+    float: left;
+    width: 90%;
+}
+
+.main-images{
+	width: 100%;
+	height: auto;
+}
+
+.read-more{
+	color: #033048;
+	text-align: right;
+	font-weight: 700;
+}
+
+.ad-unit{
+	width: 100%;
+	height: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.nav-links {
+	margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+
+.sidebar {
+    float: right;
+    width: 25%;
+    margin-bottom: 0;
+    color: #033048;
+    background-color: #f0efef ;
+    padding-right: 15px;
+    padding-left: 0;
+	padding-bottom: 214px;  
+}
+
+.sidebar-li{
+	display: block;
+	font-size: 12px;
+}
+
+.social-media {
+    width: auto;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.yellow-bar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f9e42e ;
+}
+
+
+#sign-up-now {
+    color: #f0efef ;
+    font-size: 12px; 
+    font-weight: 600;
+    padding: 6px 40px;
+    border-radius: 3px; 
+    background: #033048 ;
+    text-decoration: none;
+    border: 2px solid #033048 ; /*needed for hover state*/
+}
+
+#relaxr-text {
+	color: #033048;
+	margin-bottom: 0;
+}
+
+#learn-more {
+	color: #033048;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.first-character:first-letter {
+    float: left; 
+    font-size: 60px; 
+    line-height: 60px;  
+    padding-right: 8px; 
+}
+
+a:hover, a#sign-up-now:hover {
+    border: 2px dotted #121212 ;
+}
+
+/*I had alot of trouble getting the grey background to connect 
+on the sidebar side, is there any easier way to do this?*/
