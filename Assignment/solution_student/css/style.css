@@ -30,20 +30,20 @@ html {
 /******************************************
 /* BASE STYLES
 /*******************************************/
-/*body {
-  color: black;
+body {
+  color: #121212;
   font-size: 16px;
-  background: white;
-}*/
+  background-color: #f0efef;
+  font-weight: 300px;
+  font-family: 'open Sans', sans-serif;
+
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-/*.inner-container {
-  margin: 0 auto;
-  padding: 0 116px;
-  max-width: 1200px;*/
-}
+
+
 /******************************************
 /* PAGES
 /*******************************************/
@@ -54,74 +54,62 @@ html {
 
 /* Site Header */
 header {
-  background-color: #262672;
-  height: 200px;
+  background-color: #033048;
+  height: 100px;
   padding: 40px 0;
-  text-align: center;
+  
 
+}
+header h1{
+	display: inline-block;
+	font-size: 24px;
+	margin: 0;
+	color: #f0efef;
+	margin: 0;
+	padding-left: 15%;
+	float: left;
+}
+nav ul{
+	padding-right: 10%;
+	padding-top: 1em;
+	margin: 0px;
+	float: right;
+}
+nav li{
+	display: inline-block;
 
-  /*background-image: url('../images/header_bg.jpg');*/
-  /*background-size: cover;*/
-}
-header .logo {
-  color: #f0efef;
-  text-align: left;
-  display: inline;
-  /*padding: 0px 500px 0px 0px;*/
-}
-
-header ul li{
-	 /*color: #f0efef;*/
-  /*text-align: right;*/
-  display: inline;
-  /*display: inline;*/
-  /*padding: 0px 500px 0px 0px;*/
-}
-.navLinks {
+	font-weight: 500;
 	color: #f9e42e;
+	margin: 0px
+}
+a{
+	color: yellow;
+	text-decoration: none;
+}
+
+#adUnit{
+	background: url('images/ad-unit.png');
+    /*background-size: cover;*/
 }
 
 
-/*header h2 {
-  color: #f0efef;
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 100px;
-}
-*/
-/* Implement Section */
-/*.implement {
-  padding: 116px 0;
-}*/
-/*.implement h2 {
-  margin-top: 0;
-  color: #033048;
-  font-size: 20px;
-  font-weight: 600;
-}*/
-/*.implement p {
-  max-width: 350px;
-}*/
 
-/* Travel Section */
-/*.travel {
-  color: #f0efef;
-  padding: 60px 0;
-  text-align: center;
-}*/
-/*.travel blockquote {
-  margin: 0 auto;
-  font-size: 18px;
-  font-weight: 300;
-  max-width: 400px;
-}*/
-/*.travel blockquote p {
-  font-size: 18px;
-  font-style: italic;
-}*/
-/*.travel blockquote footer {
-  font-weight: 600;
-}*/
+
+/* Main Body */
+.firstletter {
+	float: left;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 60px;
+	padding: 0px 5px; 
+}
+.readMore{
+	text-align: right;
+	padding-bottom: 15px
+	font-size: 24px;
+	font-weight: 500px;
+}
+
 
 /* Signup Section */
 .signup {
