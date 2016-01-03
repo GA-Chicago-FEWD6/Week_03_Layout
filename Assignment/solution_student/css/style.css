@@ -27,15 +27,111 @@ html {
 .clearfix:after {
   clear: both;
 }
-/******************************************
-/* BASE STYLES
-/*******************************************/
+
 body {
-  color: black;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: lighter;
   background: white;
+  padding: 50px;
+  color: #05080C;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 70px auto;
+  background: #F6F6F6;
+  border-top: 5px solid #222222;
+  font-family: 'open sans',sans-serif;
+  border-bottom: 5px solid #222222;
+  padding-top: none;
+  font-size: 24px lighter;
 }
 
+header {
+    height: 100px;
+    margin:0 auto;
+    padding:5px;
+    background:#003366;
+    text-align: left center;
+}
+
+.logo {
+	color: white;
+	text-indent: 5px;
+	display: inline;
+}
+
+.nav li{
+	text-align: right center;
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width:auto;	
+	color:#f9e42e;
+}
+
+
+.implemented, .traveled {
+	width: 60%;
+	padding: 10px;
+	height: auto;
+	border-bottom: solid black 1px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+.sign: after{
+	position: relative;
+	padding: 10px 15px 11px;
+	font-size: 12px;
+	background-color: #033048;;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	display: block;	
+	border: none;
+}
+
+.signupnow {
+	background-color: #f9e42e;
+	background-position: center;
+	text-align: center;
+	margin: 0;
+	padding: 40px 20px;
+	border: none;
+}
+
+.social {
+	text-align: center;
+}
+
+a { 
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+footer{ 
+	background-color: #121212;
+	padding: 40px 20px;
+}
+
+h5{
+  margin-top: 0;
+	color: #f9e42e;
+	text-align: center;
+	font-size: 24px;
+	font-weight: extra-bold;
+}
+
+h6{ 
+	text-align: center;
+	font-size: 9px;
+	font-weight: semibold;
+	color: white;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
