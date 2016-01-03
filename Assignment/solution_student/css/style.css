@@ -62,13 +62,15 @@ header {
 .nav li{
 	text-align: right center;
 	display: inline-block;
-	float: left;
+	float: right;
 	padding: 0;
 	margin: 0;
+	margin-bottom: 20px;
 	list-style: none;
 	width:auto;	
 	color:#f9e42e;
 }
+
 
 
 .implemented, .traveled {
@@ -77,12 +79,26 @@ header {
 	height: auto;
 	border-bottom: solid black 1px;
 	display: inline-block;
-	float: left;
 	clear: both;
 	overflow: hidden;
 }
 
-.sign: after{
+.column2 {
+	float: right;
+	width: 30%;
+}
+
+
+.sidebartop, .sidebarmiddle {
+	width: 30%;
+	padding: 10px;
+	height: auto;
+	display: inline-block;
+	float: right;
+	position: right
+}
+
+.sign{
 	position: relative;
 	padding: 10px 15px 11px;
 	font-size: 12px;
@@ -91,7 +107,7 @@ header {
 	color: white;
 	border-radius: 5px;
 	text-decoration: none;
-	display: block;	
+	display: inline-block;	
 	border: none;
 }
 
@@ -100,7 +116,7 @@ header {
 	background-position: center;
 	text-align: center;
 	margin: 0;
-	padding: 40px 20px;
+	padding: 40px 10px;
 	border: none;
 }
 
