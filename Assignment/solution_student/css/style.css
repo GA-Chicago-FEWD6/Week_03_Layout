@@ -1,17 +1,18 @@
 /*
-Project Name: HTML Template
-Client: Your Client
-Author: Your Name
-Developer: @poopsplat in Chicago
-*/
+Project Name: Relaxr Landing Page - Pt. 2
+Client: Relaxr
+Author: Sara V.
+Developer: SKV */
 
 /******************************************
 /* SETUP
 /*******************************************/
+
 /* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 html {
   box-sizing: border-box;
 }
@@ -19,31 +20,229 @@ html {
 .clearfix {
   *zoom: 1;
 }
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
 }
+
 .clearfix:after {
   clear: both;
 }
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
+
 body {
+  width: 50%;
+  opacity: .85;
   color: black;
+  margin: 0 auto;
   font-size: 16px;
-  background: white;
+  font-family: 'open sans', sans-serif;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+header {
+	width: 100%;
+	background-color: #033048
+}
 
-/******************************************
-/* PAGES
-/*******************************************/
+nav {
+	float: right;
+	margin-top: 20px;
+	padding-right: 50px;
+}
 
-/******************************************
-/* SECTIONS
-/*******************************************/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+h1 {
+	margin: 0;
+	float: left;
+	color: #f0efef;
+	font-size: 1.6em; /*I'm not really sure why I have to use 'em' here. Can you help explain when and why this is needed (versus px)?*/
+	margin-top: 15px;
+	padding-left: 50px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+h2 {
+	margin: 0;
+	color: #033048;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-top: 5px;
+	font-weight: 800;
+}
+
+h4 {
+	margin: 0;
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 25px;
+	letter-spacing: 1px;
+	padding-bottom: 40px;
+}
+
+h5 {
+	font-size: 9px;
+	color: #f0efef;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+p {
+	color: #606161;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+footer {
+	clear: both;
+	height: 240px;
+	background-color: #121212;
+}
+
+.nav-links {
+	margin: 0;
+	color: #f9e42e;
+	font-size: 14px;
+	font-weight: 300;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.nav-links:hover {
+	text-decoration: underline;
+}
+
+.main {
+	float: left;
+	padding: 25px 50px 15px;
+	background-color: #f0efef;
+}
+
+.main-content {
+	width: 70%;
+	float: left;
+}
+
+.main-images {
+	width: 100%;
+	height: auto;
+}
+
+.first-character:first-letter {
+	float: left; 
+	font-size: 60px; 
+	line-height: 60px;  
+	padding-right: 8px; 
+}
+
+.read-more {
+	color: #033048;
+	font-weight: 700;
+	text-align: right;
+}
+
+.read-more:hover {
+	text-decoration: underline;
+}
+
+.sidebar {
+	width: 30%;
+	float: right;
+	color: #033048;
+	padding-left: 20px;
+}
+
+.sidebar-li {
+	color: #033048;
+	display: block; 
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sidebar-li:hover {
+	text-decoration: underline;
+}
+
+#about-relaxr-header {
+	margin-top: 20px;
+}
+
+#about-relaxr-text {
+	color: #033048;
+	margin-bottom: 0;
+}
+
+#learn-more {
+	color: #033048;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#learn-more:hover {
+	text-decoration: underline;
+}
+
+.ad-unit {
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.yellow-bar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f9e42e;
+}
+
+#sign-up-now {
+	color: #f0efef;
+	font-size: 12px; 
+	font-weight: 600;
+	padding: 6px 40px;
+	border-radius: 3px; 
+	background: #033048;
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #033048; 
+}
+
+a#sign-up-now:hover {
+	border: 2px solid #f0efef;
+}
+
+.social-media {
+	width: auto;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.social-media-link {
+	display: inline-block;
+}
