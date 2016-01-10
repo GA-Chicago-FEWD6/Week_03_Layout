@@ -1,0 +1,259 @@
+/*
+Project Name: HTML Template
+Client: Your Client
+Author: Your Name
+Developer: @poopsplat in Chicago
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+/* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+/*  color: black;
+  font-size: 16px;
+  background: white;*/
+}
+
+h1 {
+	font-family: 'Merriweather-Sans', sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Merriweather', Serif;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: 'Merriweather-Sans', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* PAGES
+/*******************************************/
+
+/******************************************
+/* SECTIONS
+/*******************************************/
+.nav-wrapper {
+	width: 100%;
+	background-color: #000;
+	border-bottom: 5px solid #FDF831;
+}
+
+.logo {
+	color: #FDF831;
+	font-family: 'Merriweather',Serif;
+	font-size: 36px;
+	font-weight: 700;
+	padding: 40px 0 0 40px;
+}
+
+.navigation {
+	text-align: right;
+	padding-right: 40px;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-family: 'Merriweather Sans',sans-serif;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+	transition: all .15s ease-in-out;
+
+}
+
+.navigation a:hover {
+	border-bottom: 4px solid yellow;
+}
+
+.oswald-nav {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+.banner-section {
+	background-color: #C6C6C6;
+	width: 100%;
+}
+
+.banner-content {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 1px 0;
+}
+
+.banner-content p {
+	font-family: 'Merriweather', Serif;
+	font-weight: 800;
+}
+
+.taste {
+	color: #989898;
+	text-decoration: line-through;
+}
+
+.are {
+	border-bottom: 4px solid yellow;
+}
+
+.hero {
+	height: 664px;
+	max-width: 100%;
+	background-size: cover;
+	/*box-shadow: 0 0 10px #777777;*/
+	box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.70);
+	background-image: url('../images/coworking.jpg');
+
+}
+
+.hero-content {
+	left: 60%;
+	top: 318px;
+	/*max-width: 35%;*/
+	max-width: 400px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px 35px 35px 35px;
+	border: 1px solid #C6C6C6;
+	box-shadow: 0 0 10px #777777;
+	margin-right: 48px;
+}
+
+.hero-content h1 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.hero-content p {
+	font-size: 24px;
+	max-width: 400px;
+	line-height: 1.4em;
+	margin-top: 0;
+}
+
+.hero .button {
+	max-width: 400px;
+	background-color: #FDF831;
+	box-shadow: 0 3px 0 0 #C9C524;
+}
+
+.hero .button:hover {
+	background-color: #FFFF99;
+}
+
+.do-things {
+	margin-bottom: 100px;
+}
+
+.do-things p {
+	font-size: 24px;
+	line-height: 1.4em;
+	font-family: 'Merriweather-Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.button {
+	background-color: #C6C6C6;
+	font-family: 'Oswald', Sans;
+	font-size: 24px;
+	border-radius: 5px;
+	text-align: center;
+	max-width: 275px;
+	min-height: 55px;
+	padding: 9px 5px 0 5px;
+	font-weight: 700;
+	box-shadow: 0 3px 0 0 #9D9D9D;
+	transition: all .15s ease-in-out;
+}
+
+.button:hover {
+	background-color: #dadada;
+	cursor: pointer;
+}
+
+.create {
+	max-width: 33%;
+	border-right: 2px solid #DDDDDD;
+	padding: 0 20px 0 40px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 60px;
+}
+
+.find-developer {
+	max-width: 33%;
+	border-right: 2px solid #DDDDDD;
+	padding: 0 20px 0 40px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 60px;
+}
+
+.find-designer {
+	max-width: 33%;
+	padding: 0 20px 0 40px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 60px;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	clear: both;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+}
+
+footer p {
+	padding: 30px 0 30px 40px;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

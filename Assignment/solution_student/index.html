@@ -8,24 +8,92 @@
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="css/style.css"><!-- Our site's stylesheet -->
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800' rel='stylesheet' type='text/css'>
+
     <link rel="shortcut icon" type="image/ico" href="images/favicon.png"><!-- the favicon -->
   </head>
   <body>
 
     <!-- YOUR MARKUP GOES HERE! -->
     <div class="container">
-    
-      <header>
-        <h1>FEWD HTML Template</h1>
+
+      <header class="clearfix">
+        <div class="header-content">
+          <div class="logo">Relaxr</div>
+          <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </div> 
       </header>
 
-      <main>
-        <p>Our HTML starter template!</p>
-      </main>
+      <div class="column-container clearfix">
 
-      <footer>
-        <p>&copy; FEWD6 & Friends, INC.</p>
-      </footer>
+      <div class="main-content">
+      <main>
+        <section class="article-container">
+          <article class="article">
+            <a class="headline-link" href="#">How I implemented Relaxr in 2 weeks and changed my life</a>
+            <img src="images/blog_photo1.jpg" alt="people rowing boats">
+            <p><span class="drop-cap">L</span>orem ipsum dolor sit amet, interdum suspendisse lacus, sed dolor, sit eu a enim nec rhoncus, in lectus. Illo commodo condimentum eget est aliquam voluptatum, tempus nonummy phasellus tortor, interdum diam, pellentesque sit leo dictumst morbi, lacus est dignissim purus vitae conubia. Curabitur numquam dignissim sem su  scipit vestibulum. Elementum a nunc sit dui, hendrerit metus vel eu suscipit. Illo commodo condimentum eget est aliquam voluptatum, tempus nonummy phasellus tortor, interdum diam.</p>
+            <a href="#"><div class="read-more">Read More »</div></a>
+            <hr>
+          </article>
+
+          <article class="article">
+          <a class="headline-link" href="#">I traveled across the globe thanks to Relaxr’s Excel auomation</a>
+          <img src="images/blog_photo2.jpg" alt="empty boats on the water">
+          <p><span class="drop-cap">L</span>orem ipsum dolor sit amet, interdum suspendisse lacus, sed dolor, sit eu a enim nec rhoncus, in lectus. Illo commodo condimentum eget est aliquam voluptatum, tempus nonummy phasellus tortor, interdum diam, pellentesque sit leo dictumst morbi, lacus est dignissim purus vitae conubia. Curabitur numquam dignissim sem suscipit vestibulum. Elementum a nunc sit dui, hendrerit metus vel eu suscipit. Illo commodo condimentum eget est aliquam voluptatum, tempus nonummy phasellus tortor, interdum diam.</p>
+          <a href="#"><div class="read-more">Read More »</div></a>
+          <hr>
+          </article>
+        </section>  
+      </main>
+      </div>
+
+      <aside>
+        <div class="categories">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="#">Success stories</a></li>
+            <li><a href="#">Stats</a></li>
+            <li><a href="#">How tos</a></li>
+            <li><a href="#">Best of</a></li>
+            <li><a href="#">Business tips</a></li>
+          </ul>
+        </div>  
+        <div class="about">
+        <h2>About</h2>
+          <p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+          <a href="#"><div class="learn-more">Learn More »</div></a>
+        </div>
+        <div class="ad-unit">
+          <img src="images/ad-unit.png" alt="advertisement">
+        </div>
+      </aside>
+
+      </div> <!-- Column Container -->
+
+        <section class="footer-wrapper">
+        <section class="sign-up">
+          <a href="#" class="button-secondary">Sign Up Now!</a>
+        </section>
+
+        <footer>
+          <h1>Relaxr</h1>
+            <div class="social-icons">
+              <a target="_blank" href="https://twitter.com/"><img class="twitter" src="images/twitter.png" alt="Twitter icon"></a>
+              <a target="_blank" href="https://www.facebook.com/"><img class="facebook" src="images/facebook.png" alt="Facebook icon"></a>
+            </div>
+          <p>&copy; Copyright 2015. Relaxr.</p>
+        </footer>
+      </section>
+
 
     </div><!-- Container -->
 

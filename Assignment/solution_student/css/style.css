@@ -10,14 +10,14 @@ Developer: @poopsplat in Chicago
 /*******************************************/
 /* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
-  box-sizing: inherit;
+  	box-sizing: inherit;
 }
 html {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 /* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix {
-  *zoom: 1;
+	*zoom: 1;
 }
 .clearfix:before,
 .clearfix:after {
@@ -25,25 +25,308 @@ html {
     display: table;
 }
 .clearfix:after {
-  clear: both;
+		clear: both;
 }
 /******************************************
 /* BASE STYLES
 /*******************************************/
+
 body {
-  color: black;
-  font-size: 16px;
-  background: white;
+  	color: #033048;
+  	font-size: 16px;
+  	background-color: #F2F6F5;
+  	font-family: 'Open Sans', Tahoma, Arial;
+}
+
+article img {
+	width: 100%;
+	padding: 12px 0;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+h2 li {
+	font-size: 24px;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+p {
+	margin: 10px 0;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+aside p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+a p {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
 }
 
 /******************************************
-/* LAYOUT
-/*******************************************/
-
-/******************************************
-/* PAGES
-/*******************************************/
-
-/******************************************
 /* SECTIONS
-/*******************************************/
+/******************************************/
+
+/*MAIN CONTENT*/
+.main-content {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+/*HEADER SECTION*/
+
+.header-content {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.logo {
+	float: left;	
+	color: #fff;
+	font-size: 2em;
+	font-weight: 800;
+	padding: 40px 0 40px 40px;
+	transition: color 0.5s ease;
+
+}
+
+.logo:hover {
+	color: #FDF5B0;
+	cursor: pointer;
+}
+
+header {
+	width: 100%;
+	background-color: #033048;
+}
+
+nav {
+	float: right;
+	margin-top: 30px;
+	padding-right: 40px;
+	display: inline-block;
+}
+
+nav ul {
+	color: #f9e42e;
+	font-weight: 600;
+	list-style-type: none;
+}
+
+nav li {
+	padding: 0 10px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+nav a {
+	color: #f9e42e;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FDF5B0;
+}
+
+
+/*ARTICLE SECTION*/
+
+.article-container {
+	float: left;
+	max-width: 700px;
+	/*TAKING THIS OUT PER MATT'S SUGGESTION*/
+	/*margin: 40px 10px 100px 40px;*/
+}
+
+
+.headline-link {
+	color: #033048;
+	font-size: 40px;
+	font-weight: 600;
+	transition: color 0.2s ease;
+}
+
+.headline-link:hover {
+	color: #00507A;
+}
+
+.article {
+	margin-top: 25px;
+}
+
+.drop-cap {
+	float: left;
+	color: #606161;
+	font-size: 95px;
+	font-weight: 600;
+	line-height: 60px; 
+  	padding-top: 15px; 
+  	padding-right: 8px; 
+  	padding-bottom: 10px;
+
+}
+
+.article p {
+	color: #606161;
+}
+
+.read-more {
+	color: #033048;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: right;
+	margin: 30px 0;
+	transition: background-color 0.5s ease;
+}
+
+.read-more:hover {
+	color: #00507A;
+}
+
+.learn-more {
+	color: #033048;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: left;
+	transition: background-color 0.5s ease;
+}
+
+.learn-more:hover {
+	color: #00507A;
+}
+
+/*ASIDE SECTION*/
+
+aside {
+	float: left;
+	max-width: 240px;
+	/*TAKING THIS OUT PER MATT'S SUGGESTION*/
+	/*margin: 40px 40px 0 10px;*/
+}
+
+aside ul {
+	margin: 10px 0;
+	padding-left: 0;
+}
+
+aside li {
+	font-size: 24px;
+	list-style-type: none;
+}
+
+.categories ul a {
+	color: #033048;
+	transition: background-color 0.5s ease;
+
+}
+
+.categories ul a:hover {
+	color: #00507A;
+}
+
+.ad-unit {
+	width: 90px;
+	height: 970px;
+	margin-top: 40px;
+}
+
+/*SIGN UP SECTION*/
+.footer-wrapper {
+	clear: both;
+}
+
+footer {
+	background: #121212;
+}
+
+.sign-up {
+	padding: 30px;
+	background: #f9e42e;
+	margin-top: 100px;
+}
+
+.button-secondary {
+	color: #fff;
+	height: 36px;
+	padding: 9px;
+	width: 200px;
+	margin: 0 auto;
+	font-size: 12px;
+	font-weight: 800;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #033048;
+	transition: background-color 0.5s ease;
+
+	/*MATTS RECOMMENDED REVISION*/
+	display: block;
+}
+
+.button-secondary:hover {
+	background-color: #00507A;
+}
+
+footer h1 {
+	margin-top: 0;
+	color: #f9e42e;
+	padding-top: 30px;
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+	padding: 20px;
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.social-icons {
+	text-align: center;
+}
+
+.twitter {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	display: inline-block;
+}
+
+.facebook {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	display: inline-block;
+}
+
+
+/*REVISONS AFTER MATT'S FEEDBACK JUST RETAINING ORIGINAL CODE INLINE ABOVE FOR REFERENCE*/
+.main-content {
+	width: 70%;
+	float: left;
+	margin-right: 20px;
+}
+
+.aside {
+	width: 30%;
+	float: left;
+}
+
+.column-container {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 40px;
+}
+
