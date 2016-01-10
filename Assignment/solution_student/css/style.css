@@ -11,9 +11,11 @@ Developer: @poopsplat in Chicago
 /* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
   box-sizing: inherit;
+
 }
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix {
@@ -34,7 +36,250 @@ body {
   color: black;
   font-size: 16px;
   background: white;
+  margin: 0 auto;
+  width: 70%;
+  /*    line-height: 1.5; //// I don't think I need this */
+  clear: both;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
+
+nav {
+
+	display: table;
+    height: 87px;
+    width: 100%;
+
+}
+
+.container {
+	float: left;
+	margin: 0 auto;
+}
+
+nav ul li {
+
+    height: 87px;
+    width: 15%;  /* (100 / numItems)% */
+    line-height: 87px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+
+}
+
+.home-link {
+	width: 20%;
+	margin: 0 auto;
+	margin-right: 275px;
+	margin-left: 30px;
+	float: left;
+	font-weight: 800;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+.home-link a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.main-header {
+
+	background-color: #033048;
+}
+
+
+.nav-container a {
+	text-decoration: none;
+	color: #f9e42e;
+	font-weight: 600;
+
+}
+
+nav ul li a:hover {
+	color: white;	
+	background-color: #f9e42e;
+	border-radius: 5px; 
+	transform: scale(1.0);
+	transition: all .150s ease-in-out;
+	padding: 5px;
+}
+
+.main-header nav ul {
+	list-style: none;
+}
+
+.main-header nav ul li {
+	display: inline-block;
+}
+
+
+.main-content {
+	
+	background-color: #606161;
+
+}
+
+.first-title {
+	margin: 0 auto;
+}
+
+
+nav {
+
+	padding: 1px auto;
+}
+
+.nav-container {
+	width: 100%;
+}
+
+.nav-container li {
+	width: 100px;
+	padding-right: 35px;
+}
+
+.main-content {
+	background-color: #F2F6F5;
+	padding-top: 85px;
+	padding-right: 280px;
+	padding-left: 90px;
+	width: 100%;
+
+}
+
+.first-title, .second-title {
+	padding-bottom: 25px;
+	color: #001E49;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.top-content-photo {
+	border-radius: 5px;
+}
+
+.main-content-paragraphs {
+
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.read-more {
+
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: none;
+
+}
+
+.read-more-positioning {
+	padding-bottom: 30px;
+	padding-left: 80%;
+}
+
+.space {
+	padding-bottom: 86px;
+	background-color: whitesmoke;
+	margin-top: -8px;
+}
+
+.signup-container {
+	text-align: center;
+	background-color: yellow;
+	padding: 1%;
+}
+
+button {
+	background-color: #033048;
+	padding: 1%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	width: 20%;
+	font-weight: 600;
+
+}
+
+
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  overflow: hidden;
+  transition-duration: 0.5s;
+  transition-property: color, background-color;
+}
+
+
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active { 
+  animation-name: hvr-back-pulse;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: #2098d1;
+  background-color: #2098d1;
+  color: white;
+}
+
+.bottom-relaxr {
+	color: #f9e42e;
+	font-size: 35px;
+}
+
+.footer-container {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.facebook-icon {
+	height: 25px;
+	width: 15px;
+	margin-right: 1.2%;
+}
+
+.twitter-icon {
+
+	height: 25px;
+	width: 28px;
+	margin-left: 1.2%;
+}
+
+footer p {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	padding-top: 5%;
+}
+
+/*
+
+.main-header nav a:link, .main-header nav a:visited {
+
+
+
+}
+
+.main-header nav a:hover, .main-header nav a:active, 
+.main-header nav .acttive a:link, .main-header nav .active a:visited {
+
+
+}
+
+*/
 
 /******************************************
 /* LAYOUT
