@@ -72,14 +72,6 @@ body {
   padding: 0 116px;
   max-width: 1200px;
 }
-
-.floatleft {
-	float: left;
-}
-
-.floatright {
-	float: right;
-}
 /******************************************
 /* PAGES
 /*******************************************/
@@ -112,30 +104,28 @@ header li {
 	color: #f9e42e;
 	list-style: none;
  	display: inline-block;
+ 	font-weight: bold;
 }
 
-
+aside {
+	width: 240px;
+	float: right;
+}
 
 article {
 	width: 700px;
 	margin: 20px;
+	float: left;
+}
+
+article {
 	color: #606161;
-	margin-bottom: 80px;
 }
 
 article h2 {
 	color: #121212;
 	font-size: 40px;
 	font-weight: normal;
-}
-
-aside {
-	width: 240px;
-	margin: 20px;
-}
-
-aside li {
-	list-style: none;
 }
 
 .signup {
