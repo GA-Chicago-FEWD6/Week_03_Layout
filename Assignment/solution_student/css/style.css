@@ -1,7 +1,7 @@
 /*
 Project Name: HTML Template
 Client: Your Client
-Author: Your Name
+Author: Carly Brandess
 Developer: @poopsplat in Chicago
 */
 
@@ -27,15 +27,179 @@ html {
 .clearfix:after {
   clear: both;
 }
-/******************************************
-/* BASE STYLES
-/*******************************************/
+
 body {
-  color: black;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: lighter;
   background: white;
+  padding: 50px;
+  color: #05080C;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 70px auto;
+  background: #F6F6F6;
+  border-top: 5px solid #222222;
+  font-family: 'open sans',sans-serif;
+  border-bottom: 5px solid #222222;
+  padding-top: none;
 }
 
+header {
+    height: 100px;
+    margin:0 auto;
+    padding:5px;
+    background:#003366;
+    text-align: left center;
+}
+
+.logo {
+	color: white;
+	text-indent: 5px;
+	display: inline;
+}
+
+.nav li{
+	text-align: right center;
+	display: inline-block;
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	list-style: none;
+	width:auto;	
+	color:#f9e42e;
+	font-size: 15px;
+	font-weight: 300px;
+}
+
+.readmore {
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	padding-top: 5px;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.implemented, .traveled {
+	width: 70%;
+	padding: 10px;
+	margin-bottom: 0;
+	height: auto;
+	border-bottom: solid black 1px;
+	display: inline-block;
+	clear: both;
+	overflow: hidden;
+	float: left;
+}
+
+.traveled{
+	margin-bottom: 100px;
+}
+
+
+
+h2, h3 { 
+	font-size: 28px;
+	font-weight: normal;
+}
+
+p::first-letter {
+	font-size: xx-large;
+	font-weight: bold;
+	float: left;
+	margin: 0 2px 2px 0;
+	border: 0;
+}
+
+.column2 {
+	float: right;
+	width: 20%;
+	clear: right;
+	margin-top: -650px;
+}
+
+.side {
+	padding: 10 15 11 5;
+}
+
+.sidebar1 {
+	list-style: none;
+	padding: 0;
+}
+
+.sidebartop, .sidebarmiddle {
+	width: 20%;
+	padding: 10px 15px 11px;
+	height: auto;
+	display: inline-block;
+	float: right;
+	position: right;
+	margin: 0;
+}
+
+.sidebarmiddle {
+	margin-bottom: 40px;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: 700px;
+}
+
+.sign{
+	position: relative;
+	padding: 10px 15px 11px;
+	font-size: 12px;
+	background-color: #033048;;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;	
+	border: none;
+	clear: both;
+}
+
+.signupnow {
+	background-color: #f9e42e;
+	background-position: center;
+	text-align: center;
+	margin: 0;
+	padding: 40px 10px;
+	border: none;
+	clear: both;
+}
+
+.social {
+	text-align: center;
+}
+
+a { 
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+footer{ 
+	background-color: #121212;
+	padding: 40px 20px;
+	clear: both;
+}
+
+h5{
+  margin-top: 0;
+	color: #f9e42e;
+	text-align: center;
+	font-size: 24px;
+	font-weight: extra-bold;
+}
+
+h6{ 
+	text-align: center;
+	font-size: 9px;
+	font-weight: semibold;
+	color: white;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
