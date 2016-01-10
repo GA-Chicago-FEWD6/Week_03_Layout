@@ -1,8 +1,8 @@
 /*
-Project Name: HTML Template
-Client: Your Client
-Author: Your Name
-Developer: @poopsplat in Chicago
+Project Name: Arts Relaxr blog page
+Client: 
+Author: 
+Developer: Art Rykalin
 */
 
 /******************************************
@@ -31,14 +31,18 @@ html {
 /* BASE STYLES
 /*******************************************/
 body {
-  color: black;
+  color: #121212;
   font-size: 16px;
-  background: white;
+  background-color: #f0efef;
+  font-weight: 300px;
+  font-family: 'open Sans', sans-serif;
+
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 
 /******************************************
 /* PAGES
@@ -47,3 +51,100 @@ body {
 /******************************************
 /* SECTIONS
 /*******************************************/
+
+/* Site Header */
+header {
+  background-color: #033048;
+  height: 100px;
+  padding: 40px 0;
+  
+
+}
+header h1{
+	display: inline-block;
+	font-size: 24px;
+	margin: 0;
+	color: #f0efef;
+	margin: 0;
+	padding-left: 15%;
+	float: left;
+}
+nav ul{
+	padding-right: 10%;
+	padding-top: 1em;
+	margin: 0px;
+	float: right;
+}
+nav li{
+	display: inline-block;
+
+	font-weight: 500;
+	color: #f9e42e;
+	margin: 0px
+}
+a{
+	color: yellow;
+	text-decoration: none;
+}
+
+#adUnit{
+	background: url('images/ad-unit.png');
+    /*background-size: cover;*/
+}
+
+
+
+
+/* Main Body */
+.firstletter {
+	float: left;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 60px;
+	padding: 0px 5px; 
+}
+.readMore{
+	text-align: right;
+	padding-bottom: 15px
+	font-size: 24px;
+	font-weight: 500px;
+}
+
+
+/* Signup Section */
+.signup {
+  padding: 20px 0;
+  text-align: center;
+  background: #f9e42e;
+}
+.signup .button {
+  color: #f0efef;
+  background: #033048;
+}
+.signup .button:hover {
+  background: #5F748F;
+}
+
+/* Site Footer */
+.site-footer {
+  color: #f0efef;
+  padding: 40px 0;
+  text-align: center;
+  background: #2E2E2E;
+}
+.site-footer .logo {
+  color: #f9e42e;
+}
+.social-links {
+  padding: 0;
+  margin: 40px 0;
+}
+.social-links li {
+  margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+}
