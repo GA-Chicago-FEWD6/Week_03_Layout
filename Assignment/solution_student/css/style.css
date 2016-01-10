@@ -1,8 +1,7 @@
 /*
-Project Name: HTML Template
-Client: Your Client
-Author: Your Name
-Developer: @poopsplat in Chicago
+Project Name: Relaxr Blog
+Client: Relaxr 
+Developer: @hannahdemilta in Chicago
 */
 
 /******************************************
@@ -31,9 +30,19 @@ html {
 /* BASE STYLES
 /*******************************************/
 body {
-  color: black;
   font-size: 16px;
-  background: white;
+  background: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+
+}
+
+h1 {
+	font-family: 'Open Sans' ;
+}
+
+p {
+	font-family: 'Open Sans' ; 
 }
 
 /******************************************
@@ -47,3 +56,133 @@ body {
 /******************************************
 /* SECTIONS
 /*******************************************/
+
+header {
+	background-color: #033048;
+}
+
+header h1 {
+	float: left;
+	color: white;
+	padding-left: 100px; 
+	padding-bottom: 50px; 
+}
+header nav {
+	float: right;
+	font-size: 24px; 
+	margin-top: 25px;
+	margin-right: 40px;
+}
+
+header a {
+	text-decoration: none;
+	color: #f9e42e;
+	padding: 10px; 
+	font-size: 24px; 
+}
+
+.clearfix:after {
+	clear: both;
+	padding-right: 300px; 
+	padding-left: 400px; 
+	width: 80%; 
+}
+
+#articles {
+	float: left;
+	width: 70%; 
+	padding-left: 100px; 
+	padding-right: 50px;
+	padding-bottom: 20px; 
+}
+
+#articles img {
+	width: 70%; 
+}
+
+#articles h1 {
+	width: 70%; 
+}
+
+.side-menu {
+	float: right;
+	width: 20%; 
+	padding-right: 300px; 
+	margin-right: 100px; 
+}
+
+.side-menu a {
+	text-decoration: none;
+}
+
+.side-menu img {
+	padding-right: 50px; 
+}
+
+.side-menu h2 {
+	font-size: 32px; 
+	font-family: 'Open sans' , 'extra bold' ;
+}
+
+#articles h1 {
+	font-size: 40px;
+	font-family: 'Open sans' , 'semibold' ; 
+}
+
+#articles p {
+	font-size: 24px;
+	font-family: 'Open sans' , 'light' ; 
+	color: #606161; 
+}
+
+article p::first-letter {
+  color: #606161;
+  font-size: 45px; 
+}
+
+
+.info {
+	width: 100%; 
+	text-align: right;
+	border-bottom: solid;
+	border-color: black; 
+	padding-right: 50px; 
+	padding-bottom: 25px; 
+}
+
+.info a {
+	text-decoration: none;
+	font-size: 22px; 
+	font-family: 'Open sans' , 'semibold' ; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px; 
+}
+
+footer {
+	text-align: center; 
+	background-color: #606161;
+
+}
+
+footer h2 {
+	color: #f9e42e; 
+}
+
+footer p {
+	color: white; 
+}
+
+#signup {
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+	background-color: #f9e42e; 
+}
+
+#signup a {
+	text-decoration: none; 
+}

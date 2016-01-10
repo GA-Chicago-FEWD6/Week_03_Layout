@@ -6,28 +6,80 @@
     <meta name="description" content="An HTML Starter Template">
     
     <link rel="stylesheet" href="css/normalize.css"><!-- CSS reset: http://necolas.github.io/normalize.css/ -->
+   
     <link rel="stylesheet" href="css/style.css"><!-- Our site's stylesheet -->
 
     <link rel="shortcut icon" type="image/ico" href="images/favicon.png"><!-- the favicon -->
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,800' rel='stylesheet' type='text/css'>
+
   </head>
   <body>
 
-    <!-- YOUR MARKUP GOES HERE! -->
-    <div class="container">
-    
+    <!-- YOUR MARKUP GOES HERE! -->    
       <header>
-        <h1>FEWD HTML Template</h1>
+          <div class="container clearfix">
+        <h1>Relaxr</h1>
+            <nav> 
+              <a href="#">About</a> 
+              <a href="#">FAQ</a>
+              <a href="#">Team</a> 
+              <a href="#">Contact Us</a> 
+              <a href="#">Blog</a>
+            </nav>
+          </div>
       </header>
 
       <main>
-        <p>Our HTML starter template!</p>
+        <div class="container clearfix"> 
+            <div id="articles">
+            <article>
+              <h1> How I implemented Relaxr in 2 weeks and changed my life.</h1>
+              <img src="images/blog_photo1.jpg" alt="Rexlar Blog Image">
+                <p>Lorem ipsum dolor sit amet, te sea paulo elitr decore, eu idque ornatus oporteat sed. Mei ne modo vide aperiam, ex vidisse feugiat est. Ei odio verterem assentior qui. Mea nobis mucius te, duo possit appareat tincidunt ea. No dolorum accommodare vix, cu integre electram democritum pri.
+                </p>
+              <div class="info clearfix">
+                <a href="#">Read more ></a>
+              </div>
+              </article>
+            </article>
+
+            <article>
+                <h1>I traveled across the globe thanks to Rexlar's Excel automation</h1>
+              <img src="images/blog_photo2.jpg" alt="Relaxr Blog Image Two">
+                <p>Lorem ipsum dolor sit amet, te sea paulo elitr decore, eu idque ornatus oporteat sed. Mei ne modo vide aperiam, ex vidisse feugiat est. Ei odio verterem assentior qui. Mea nobis mucius te, duo possit appareat tincidunt ea. No dolorum accommodare vix, cu integre electram democritum pri.
+</p>
+                <div class="info clearfix">
+                  <a href="#">Read more ></a>
+                </div>
+            </article>
+            </div>
+
+            <div id="side-menu">
+              <h2>Categories</h2>
+                <ul>
+                  <li>Sucess stories</li>
+                  <li>Stats</li>
+                  <li>How tos</li>
+                  <li>Best of</li>
+                  <li>Business tips</li>
+                </ul>
+              <h2>About Relaxr</h2>
+              <p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+              <p><a href="#">Learn More</a></p>
+              <img src="images/ad-unit.png" alt="Ad Unit">
+            </div>
+        </div>
       </main>
 
       <footer>
-        <p>&copy; FEWD6 & Friends, INC.</p>
+      <div id="signup">
+        <a href="#">Sign Up Now!</a>
+      </div>
+        <h2>Relaxr</h2>
+        <p>Copyright 2015 Relaxr</p>
       </footer>
-
-    </div><!-- Container -->
 
   </body>
 </html>
+
